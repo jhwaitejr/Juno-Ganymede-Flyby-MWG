@@ -1,0 +1,5 @@
+# Juno-Ganymede-Flyby-MWG
+This repository contains the Python codes, the data sets, and outputs from the JGR Planets paper on Juno's flyby of Ganymede during orbit 34 of the Juno mission reaching an altitude of 1053 km (16:56:07.972 UTC) at a sub spacecraft latitude/longitude of 33.66N, 57.5W degrees on June 7, 2021.
+The primary program is an electron energy deposition code (GAanymedeCodeForAurroalZoneEnergy-cgs-newcolumn-withCSinterpolation.ipynb) that uses the Juno JADE data set to determine the ionization production and the ultraviolet emission production in the atmosphere of Ganymede. The cross section files for the production rates are included in the repository, as is the atmospheric data file that was used. Output files as available are also included.
+The program was later modified to produce an ionospheric profile in the polar atmosphere (GanymedCodeWithPolarIonosphreNewColumn.ipynb) and to determine the heating of the atmosphere due to energetic electron bombardment.
+This code is copyrighted by NASA and Southwest Research Insitute.
